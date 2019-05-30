@@ -16,3 +16,4 @@
 ## nova
 
 1. [create_libvirt_ceph_secret.sh](./nova/create_libvirt_ceph_secret.sh): Create a libvirt secret for Ceph.
+2. [get_server_metadata.sh](./nova/get_server_metadata.sh): Get server metadata outside the vm, useful to debug cloud-init metadata.
