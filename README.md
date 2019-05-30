@@ -15,8 +15,9 @@
 
 1. [create_virtual_ip.sh](./neutron/create_virtual_ip.sh): Create a virtual IP for a group of member ip.
 2. [dump_all_taps.sh](./neutron/dump_all_taps.sh): Dumps all tap devices to Neutron port.
-3. [ssh_vm_in_dhcp_namespace.sh](./neutron/ssh_vm_in_dhcp_namespace.sh): ssh vm in dhcp namespace, useful if controller node not reachable to tenant network.
-4. [tap_to_port.sh](./neutron/tap_to_port.sh): Convert tap to Neutron port.
+3. [get_server_security_group_iptables_rules.sh](./neutron/get_server_security_group_iptables_rules.sh): List iptables rules of security group for a server, should run it on compute node.
+4. [ssh_vm_in_dhcp_namespace.sh](./neutron/ssh_vm_in_dhcp_namespace.sh): ssh vm in dhcp namespace, useful if controller node not reachable to tenant network.
+5. [tap_to_port.sh](./neutron/tap_to_port.sh): Convert tap to Neutron port.
 
 ## nova
 
