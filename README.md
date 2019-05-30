@@ -8,7 +8,8 @@
 
 ## ironic
 
-1. [dump_ipmi_commands.sh](./ironic/dump_ipmi_commands.sh): Dumps all ipmi commands from ironic conductor log, useful to troubleshoot ironic issue.
+1. [clean_orphan_neutron_agent.sh](./ironic/clean_orphan_neutron_agent.sh): Clean orphan neutron agent if ironic node was deleted.
+2. [dump_ipmi_commands.sh](./ironic/dump_ipmi_commands.sh): Dumps all ipmi commands from ironic conductor log, useful to troubleshoot ironic issue.
 
 ## neutron
 
