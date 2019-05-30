@@ -1,5 +1,10 @@
 #!/bin/bash
 
+cat >.git/hooks/pre-commit <<'EOF'
+#!/bin/bash
+
+echo "Generage README.md ..."
+
 README_PATH="./README.md"
 
 echo "# Catalog" >$README_PATH
@@ -21,3 +26,6 @@ for script in $(find . | grep '.sh$'); do
     echo "$i. [$SCRIPT_NAME]($script):$DESC"
     let i++
 done >>$README_PATH
+git add README.md
+echo "done."
+EOF
