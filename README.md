@@ -6,6 +6,10 @@
 
 1. [api_requests.sh](./common/api_requests.sh): OpenStack API test using curl.
 
+## ironic
+
+1. [dump_ipmi_commands.sh](./ironic/dump_ipmi_commands.sh): Dumps all ipmi commands from ironic conductor log, useful to troubleshoot ironic issue.
+
 ## neutron
 
 1. [create_virtual_ip.sh](./neutron/create_virtual_ip.sh): Create a virtual IP for a group of member ip.
