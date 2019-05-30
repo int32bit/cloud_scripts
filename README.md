@@ -2,6 +2,10 @@
 
 # Catalog
 
+## common
+
+1. [api_requests.sh](./common/api_requests.sh): OpenStack API test using curl.
+
 ## neutron
 
 1. [create_virtual_ip.sh](./neutron/create_virtual_ip.sh): Create a virtual IP for a group of member ip.
