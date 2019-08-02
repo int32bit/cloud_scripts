@@ -30,3 +30,5 @@ done >>$README_PATH
 git add README.md
 echo "done."
 EOF
+
+chmod +x .git/hooks/pre-commit
