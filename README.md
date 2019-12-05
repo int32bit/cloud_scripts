@@ -36,3 +36,7 @@
 ## Calico
 
 1. [get_node_ipv4_block.sh](./Calico/get_node_ipv4_block.sh): List all ipv4 block of Calico Nodes.
+
+## Kubernetes/krew
+
+1. [fast_krew.sh](./Kubernetes/krew/fast_krew.sh): Fast Kubernetes krew using axel.
