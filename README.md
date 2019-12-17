@@ -37,6 +37,7 @@
 
 1. [get_node_ipv4_block.sh](./Calico/get_node_ipv4_block.sh): List all ipv4 block of Calico Nodes.
 
-## Kubernetes/krew
+## Kubernetes
 
-1. [fast_krew.sh](./Kubernetes/krew/fast_krew.sh): Fast Kubernetes krew using axel.
+1. [decode_serviceaccount_token.sh](./Kubernetes/decode_serviceaccount_token.sh): Decode ServiceAccount Token(JWT).
+2. [fast_krew.sh](./Kubernetes/fast_krew.sh): Fast Kubernetes krew using axel.
