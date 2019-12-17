@@ -39,5 +39,7 @@
 
 ## Kubernetes
 
-1. [decode_serviceaccount_token.sh](./Kubernetes/decode_serviceaccount_token.sh): Decode ServiceAccount Token(JWT).
-2. [fast_krew.sh](./Kubernetes/fast_krew.sh): Fast Kubernetes krew using axel.
+1. [create_serviceaccount_user_and_setup_kubeconfig.sh](./Kubernetes/create_serviceaccount_user_and_setup_kubeconfig.sh): Create SereviceAccount as normal user and setup kubeconfig.
+2. [decode_serviceaccount_token.sh](./Kubernetes/decode_serviceaccount_token.sh): Decode ServiceAccount Token(JWT).
+3. [create_x509_client_and_setup_kubeconfig.sh](./Kubernetes/create_x509_client_and_setup_kubeconfig.sh): Create x509 client and setup kubeconfig.
+4. [fast_krew.sh](./Kubernetes/fast_krew.sh): Fast Kubernetes krew using axel.
